@@ -7,7 +7,7 @@ public class ChordApp {
 	{
 		JFrame frame = new JFrame("RCPG");
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		Chord_Panel panel = new Chord_Panel();
+		ChordPanel panel = new ChordPanel();
 		frame.getContentPane().add(panel);
 		frame.pack();
 		frame.setVisible(true);
